@@ -1,0 +1,34 @@
+fastapi==0.100.0
+uvicorn[standard]==0.23.2
+python-dotenv==1.0.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+sqlalchemy==2.0.30
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+requests==2.31.0
+httpx==0.27.0  # FastAPI async HTTP client (optional)
+
+openai==1.30.1  # Latest GPT-4o compatible
+tiktoken==0.5.2  # Match openai >=1.x
+
+langchain==0.1.17
+chromadb==0.4.24
+
+pypdf==3.17.0
+beautifulsoup4==4.12.3
+
+celery==5.3.6
+redis==5.0.3
+
+n8n-python==0.1.0
+python-multipart==0.0.9
+
+langchain
+openai
+tiktoken
+faiss-cpu  
+PyPDF2
+python-docx
